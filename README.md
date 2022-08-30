@@ -6,7 +6,7 @@
 
 下载不同操作系统版本，打开，如下图所示，默认转出为html格式。
 
-![GUI](figures/gui0.png)
+![GUI](gui0.png)
 
 ## 命令行版使用方法
 
@@ -18,13 +18,11 @@ python kindle-clippings-export.py -i "My Clippings.txt" -o out-file-name.html
 
 输出文件根据`out-file-name`后缀判断输出word文档（docx）或markdown文件（md）。
 
-![demo-md](figures/demo-md.png)
-
-![demo-docx](figures/demo-docx.png)
+![demo-md](demo-md.png)
 
 Markdown文件也可以用pandoc工具输出为html文件。
 
-![demo-html](figures/demo-html.png)
+![demo-html](demo-html.png)
 
 ### 参数
 
@@ -37,5 +35,4 @@ Markdown文件也可以用pandoc工具输出为html文件。
 ## 下一步计划
 
 - [x] 添加GUI。
-- [x] 用Pyinstaller或nuitka打包。
 - [x] 完善GUI功能。

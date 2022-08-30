@@ -16,7 +16,7 @@
 python kindle-clippings-export.py -i "My Clippings.txt" -o out-file-name.html
 ```
 
-输出文件根据`out-file-name`后缀判断输出word文档（docx）或markdown文件（md）。
+输出文件根据`out-file-name`后缀判断输出html或markdown文件（md）。
 
 ![demo-md](demo-md.png)
 

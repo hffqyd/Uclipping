@@ -1,10 +1,10 @@
 # Kindle标注导出
 
-从Kindle标注文件“My Clippings.txt”中导出至word（docx）。
+从Kindle标注文件“My Clippings.txt”中导出至单个html。
 
 ## GUI版
 
-下载不同操作系统版本，打开，如下图所示，默认转出为docx格式。
+下载不同操作系统版本，打开，如下图所示，默认转出为html格式。
 
 ![GUI](figures/gui0.png)
 
@@ -13,7 +13,7 @@
 使用Python3版本：
 
 ```
-python kindle-clippings-export.py -i "My Clippings.txt" -o out-file-name.docx
+python kindle-clippings-export.py -i "My Clippings.txt" -o out-file-name.html
 ```
 
 输出文件根据`out-file-name`后缀判断输出word文档（docx）或markdown文件（md）。
@@ -38,4 +38,4 @@ Markdown文件也可以用pandoc工具输出为html文件。
 
 - [x] 添加GUI。
 - [x] 用Pyinstaller或nuitka打包。
-- [ ] 完善GUI功能。
+- [x] 完善GUI功能。
